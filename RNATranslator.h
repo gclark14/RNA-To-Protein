@@ -10,6 +10,10 @@ private:
 	string protein;
 
 public:
+
+	RNATranslator(string rna){
+		this->rna = rna;
+	}
 	
 	RNATranslator(){ protein = rna = ""; }
 
